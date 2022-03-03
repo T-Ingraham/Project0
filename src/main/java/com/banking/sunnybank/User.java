@@ -88,14 +88,14 @@ public class User implements Map<String, User>{
 		users.put(name, this);
 	}
 	
-	public User(int userId, String name, String password,float balance, boolean admin, boolean approved, float transfer) {
+	public User(int userId, String name, String password,float balance, boolean admin, boolean approved) {
 		this.userId = userId;
 		this.name = name;
 		this.password = password;
 		this.balance = balance;
 		this.admin = admin;
 		this.approved = approved;
-		this.transfer = transfer;
+		
 		users.put(name, this);
 	}
 	

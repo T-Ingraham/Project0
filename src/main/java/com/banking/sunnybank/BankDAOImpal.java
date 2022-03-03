@@ -31,7 +31,7 @@ public class BankDAOImpal implements BankDAO {
 			App.logger.trace("query done.");
 			if (rs.next()) {
 				return new User(rs.getInt("userid"),  rs.getString("name"), rs.getString("password"), rs.getFloat("balance"), rs.getBoolean("admin"),
-						rs.getBoolean("approved"), 0);
+						rs.getBoolean("approved"));
 			}
 		} catch (SQLException e) {
 			System.err.println(e.getMessage());
@@ -87,7 +87,7 @@ public class BankDAOImpal implements BankDAO {
 	}
 
 	public boolean updateUser(User u) {
-		// UPDATE user_account SET balance = 4.0, approved = 0 WHERE name = ?;
+		
 		PreparedStatement ps = null;
 		int idx = 0;
 		try {
@@ -110,12 +110,14 @@ public class BankDAOImpal implements BankDAO {
 		
 	}
 	
+	
 
 
 
 	@Override
 	public Map<String, User> getAllUsers() {
 		Map<String, User> um = new HashMap<>();
+		
 		try (Connection con = ConnectionUtil.getConnection()) {
 			PreparedStatement ps = con
 					.prepareStatement("SELECT userid, name, password, balance, admin, approved "
@@ -129,7 +131,7 @@ public class BankDAOImpal implements BankDAO {
 							rs.getString("password"), 
 							rs.getFloat("balance"),
 							rs.getBoolean("admin"),
-							rs.getBoolean("approved"), 0);
+							rs.getBoolean("approved"));
 				um.put(u.name, u);
 			}
 		} catch (SQLException e) {

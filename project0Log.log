@@ -175,3 +175,227 @@
 2022-03-03 09:48:23 TRACE App:? - getAllUsers query executing...
 2022-03-03 09:48:23 TRACE App:? - query done.
 2022-03-03 09:48:23 DEBUG App:141 - getAll elements in map: 3
+2022-03-03 10:12:46 INFO  App:34 - info level - System start
+2022-03-03 10:12:49 TRACE App:? - option entered: 1
+2022-03-03 10:12:53 TRACE App:? - getUser query executing...
+2022-03-03 10:12:53 TRACE App:? - query done.
+2022-03-03 10:12:57 TRACE App:? - User logged in: User [userId=7, name=Terrence, password=nightt, balance=127.0, admin=false, approved=false, transfer=0.0]
+2022-03-03 10:28:35 INFO  App:34 - info level - System start
+2022-03-03 10:28:37 TRACE App:? - option entered: 1
+2022-03-03 10:28:39 TRACE App:? - getUser query executing...
+2022-03-03 10:28:39 TRACE App:? - query done.
+2022-03-03 10:28:43 TRACE App:? - User logged in: User [userId=3, name=Jane, password=asd, balance=450.0, admin=true, approved=true, transfer=0.0]
+2022-03-03 10:29:25 INFO  App:34 - info level - System start
+2022-03-03 10:29:27 TRACE App:? - option entered: 1
+2022-03-03 10:29:29 TRACE App:? - getUser query executing...
+2022-03-03 10:29:29 TRACE App:? - query done.
+2022-03-03 10:29:33 TRACE App:? - User logged in: User [userId=3, name=Jane, password=asd, balance=450.0, admin=true, approved=true, transfer=0.0]
+2022-03-03 10:31:38 INFO  App:34 - info level - System start
+2022-03-03 10:31:42 TRACE App:? - option entered: 1
+2022-03-03 10:31:46 TRACE App:? - getUser query executing...
+2022-03-03 10:31:46 TRACE App:? - query done.
+2022-03-03 10:31:49 TRACE App:? - User logged in: User [userId=3, name=Jane, password=asd, balance=450.0, admin=true, approved=true, transfer=0.0]
+2022-03-03 10:31:58 TRACE App:? - option entered: 4
+2022-03-03 10:31:58 TRACE App:? - getAllUsers query executing...
+2022-03-03 10:31:58 TRACE App:? - query done.
+2022-03-03 10:31:58 DEBUG App:141 - getAll elements in map: 3
+2022-03-03 10:32:04 DEBUG App:228 - name: Terrence
+2022-03-03 10:32:04 TRACE App:? - executing UPDATE to User...Terrence
+2022-03-03 10:32:04 TRACE App:? - getUser query executing...
+2022-03-03 10:32:04 TRACE App:? - query done.
+2022-03-03 10:32:04 TRACE App:? - User [userId=3, name=Jane, password=asd, balance=450.0, admin=true, approved=true, transfer=0.0]
+2022-03-03 10:32:23 INFO  App:34 - info level - System start
+2022-03-03 10:32:25 TRACE App:? - option entered: 1
+2022-03-03 10:32:30 TRACE App:? - getUser query executing...
+2022-03-03 10:32:30 TRACE App:? - query done.
+2022-03-03 10:32:33 TRACE App:? - password entered : asd
+2022-03-03 10:32:33 TRACE App:? - password expected: nightt
+2022-03-03 10:32:57 INFO  App:34 - info level - System start
+2022-03-03 10:33:01 TRACE App:? - option entered: 1
+2022-03-03 10:33:03 TRACE App:? - getUser query executing...
+2022-03-03 10:33:03 TRACE App:? - query done.
+2022-03-03 10:33:05 TRACE App:? - User logged in: User [userId=3, name=Jane, password=asd, balance=450.0, admin=true, approved=true, transfer=0.0]
+2022-03-03 10:33:08 TRACE App:? - option entered: 4
+2022-03-03 10:33:08 TRACE App:? - getAllUsers query executing...
+2022-03-03 10:33:08 TRACE App:? - query done.
+2022-03-03 10:33:08 DEBUG App:141 - getAll elements in map: 3
+2022-03-03 10:33:15 DEBUG App:228 - name: Jack
+2022-03-03 10:33:15 TRACE App:? - executing UPDATE to User...Jack
+2022-03-03 10:33:15 TRACE App:? - getUser query executing...
+2022-03-03 10:33:15 TRACE App:? - query done.
+2022-03-03 10:33:15 TRACE App:? - User [userId=3, name=Jane, password=asd, balance=450.0, admin=true, approved=true, transfer=0.0]
+2022-03-03 10:35:39 INFO  App:34 - info level - System start
+2022-03-03 10:35:41 TRACE App:? - option entered: 1
+2022-03-03 10:35:45 TRACE App:? - getUser query executing...
+2022-03-03 10:35:45 TRACE App:? - query done.
+2022-03-03 10:35:45 DEBUG App:42 - No user found (Result set empty)
+2022-03-03 10:35:49 TRACE App:? - getUser query executing...
+2022-03-03 10:35:49 TRACE App:? - query done.
+2022-03-03 10:35:53 TRACE App:? - User logged in: User [userId=7, name=Terrence, password=nightt, balance=127.0, admin=false, approved=false, transfer=0.0]
+2022-03-03 10:36:03 TRACE App:? - option entered: 1
+2022-03-03 10:36:05 TRACE App:? - getUser query executing...
+2022-03-03 10:36:05 TRACE App:? - query done.
+2022-03-03 10:36:07 TRACE App:? - User logged in: User [userId=3, name=Jane, password=asd, balance=450.0, admin=true, approved=true, transfer=0.0]
+2022-03-03 10:36:08 TRACE App:? - option entered: 4
+2022-03-03 10:36:08 TRACE App:? - getAllUsers query executing...
+2022-03-03 10:36:08 TRACE App:? - query done.
+2022-03-03 10:36:08 DEBUG App:141 - getAll elements in map: 3
+2022-03-03 10:36:18 DEBUG App:228 - name: Terrence
+2022-03-03 10:36:18 TRACE App:? - executing UPDATE to User...Terrence
+2022-03-03 10:36:18 TRACE App:? - getUser query executing...
+2022-03-03 10:36:18 TRACE App:? - query done.
+2022-03-03 10:36:18 TRACE App:? - User [userId=3, name=Jane, password=asd, balance=450.0, admin=true, approved=true, transfer=0.0]
+2022-03-03 10:38:04 INFO  App:34 - info level - System start
+2022-03-03 10:38:08 TRACE App:? - option entered: 1
+2022-03-03 10:38:11 TRACE App:? - getUser query executing...
+2022-03-03 10:38:11 TRACE App:? - query done.
+2022-03-03 10:38:14 TRACE App:? - User logged in: User [userId=7, name=Terrence, password=nightt, balance=127.0, admin=false, approved=false, transfer=0.0]
+2022-03-03 10:40:02 INFO  App:34 - info level - System start
+2022-03-03 10:40:04 TRACE App:? - option entered: 1
+2022-03-03 10:40:07 TRACE App:? - getUser query executing...
+2022-03-03 10:40:07 TRACE App:? - query done.
+2022-03-03 10:40:08 TRACE App:? - User logged in: User [userId=3, name=Jane, password=asd, balance=450.0, admin=true, approved=true, transfer=0.0]
+2022-03-03 10:40:13 TRACE App:? - option entered: 4
+2022-03-03 10:40:13 TRACE App:? - getAllUsers query executing...
+2022-03-03 10:40:13 TRACE App:? - query done.
+2022-03-03 10:40:13 DEBUG App:141 - getAll elements in map: 3
+2022-03-03 10:40:17 DEBUG App:228 - name: Terrence
+2022-03-03 10:40:17 TRACE App:? - executing UPDATE to User...Terrence
+2022-03-03 10:40:17 TRACE App:? - getUser query executing...
+2022-03-03 10:40:17 TRACE App:? - query done.
+2022-03-03 10:40:17 TRACE App:? - User [userId=3, name=Jane, password=asd, balance=450.0, admin=true, approved=true, transfer=0.0]
+2022-03-03 10:40:26 TRACE App:? - option entered: 0
+2022-03-03 10:40:28 TRACE App:? - option entered: 1
+2022-03-03 10:40:30 TRACE App:? - getUser query executing...
+2022-03-03 10:40:30 TRACE App:? - query done.
+2022-03-03 10:40:35 TRACE App:? - User logged in: User [userId=7, name=Terrence, password=nightt, balance=127.0, admin=false, approved=false, transfer=0.0]
+2022-03-03 10:41:50 INFO  App:34 - info level - System start
+2022-03-03 10:41:53 TRACE App:? - option entered: 1
+2022-03-03 10:41:56 TRACE App:? - getUser query executing...
+2022-03-03 10:41:56 TRACE App:? - query done.
+2022-03-03 10:41:59 TRACE App:? - User logged in: User [userId=7, name=Terrence, password=nightt, balance=127.0, admin=false, approved=false, transfer=0.0]
+2022-03-03 10:42:01 TRACE App:? - option entered: 1
+2022-03-03 10:42:03 TRACE App:? - getUser query executing...
+2022-03-03 10:42:03 TRACE App:? - query done.
+2022-03-03 10:42:04 TRACE App:? - User logged in: User [userId=3, name=Jane, password=asd, balance=450.0, admin=true, approved=true, transfer=0.0]
+2022-03-03 10:42:06 TRACE App:? - option entered: 4
+2022-03-03 10:42:06 TRACE App:? - getAllUsers query executing...
+2022-03-03 10:42:06 TRACE App:? - query done.
+2022-03-03 10:42:06 DEBUG App:141 - getAll elements in map: 3
+2022-03-03 10:42:09 DEBUG App:228 - name: Terrence
+2022-03-03 10:42:09 TRACE App:? - executing UPDATE to User...Terrence
+2022-03-03 10:42:09 TRACE App:? - getUser query executing...
+2022-03-03 10:42:09 TRACE App:? - query done.
+2022-03-03 10:42:09 TRACE App:? - User [userId=3, name=Jane, password=asd, balance=450.0, admin=true, approved=true, transfer=0.0]
+2022-03-03 10:42:35 TRACE App:? - option entered: 0
+2022-03-03 10:42:39 TRACE App:? - option entered: 2
+2022-03-03 10:42:43 TRACE App:? - getUser query executing...
+2022-03-03 10:42:43 TRACE App:? - query done.
+2022-03-03 10:42:43 DEBUG App:42 - No user found (Result set empty)
+2022-03-03 10:42:46 TRACE App:? - executing INSERT...
+2022-03-03 10:42:46 DEBUG App:196 - User created: User [userId=0, name=mimi, password=asd, balance=0.0, admin=false, approved=false, transfer=0.0]
+2022-03-03 10:42:51 TRACE App:? - option entered: 1
+2022-03-03 10:42:56 TRACE App:? - getUser query executing...
+2022-03-03 10:42:56 TRACE App:? - query done.
+2022-03-03 10:42:58 TRACE App:? - User logged in: User [userId=3, name=Jane, password=asd, balance=450.0, admin=true, approved=true, transfer=0.0]
+2022-03-03 10:43:00 TRACE App:? - option entered: 4
+2022-03-03 10:43:00 TRACE App:? - getAllUsers query executing...
+2022-03-03 10:43:00 TRACE App:? - query done.
+2022-03-03 10:43:00 DEBUG App:141 - getAll elements in map: 4
+2022-03-03 10:43:03 DEBUG App:228 - name: mimi
+2022-03-03 10:43:03 TRACE App:? - executing UPDATE to User...mimi
+2022-03-03 10:43:03 TRACE App:? - getUser query executing...
+2022-03-03 10:43:03 TRACE App:? - query done.
+2022-03-03 10:43:03 TRACE App:? - User [userId=3, name=Jane, password=asd, balance=450.0, admin=true, approved=true, transfer=0.0]
+2022-03-03 10:43:06 TRACE App:? - option entered: 0
+2022-03-03 10:43:08 TRACE App:? - option entered: 1
+2022-03-03 10:43:10 TRACE App:? - getUser query executing...
+2022-03-03 10:43:10 TRACE App:? - query done.
+2022-03-03 10:43:12 TRACE App:? - User logged in: User [userId=10, name=mimi, password=asd, balance=0.0, admin=false, approved=false, transfer=0.0]
+2022-03-03 10:44:30 INFO  App:34 - info level - System start
+2022-03-03 10:44:33 TRACE App:? - option entered: 1
+2022-03-03 10:44:35 TRACE App:? - getUser query executing...
+2022-03-03 10:44:35 TRACE App:? - query done.
+2022-03-03 10:44:44 TRACE App:? - User logged in: User [userId=3, name=Jane, password=asd, balance=450.0, admin=true, approved=true, transfer=0.0]
+2022-03-03 10:44:47 TRACE App:? - option entered: 4
+2022-03-03 10:44:47 TRACE App:? - getAllUsers query executing...
+2022-03-03 10:44:47 TRACE App:? - query done.
+2022-03-03 10:44:47 DEBUG App:141 - getAll elements in map: 4
+2022-03-03 10:44:49 DEBUG App:228 - name: mimi
+2022-03-03 10:44:49 TRACE App:? - executing UPDATE to User...mimi
+2022-03-03 10:44:49 TRACE App:? - getUser query executing...
+2022-03-03 10:44:49 TRACE App:? - query done.
+2022-03-03 10:44:49 TRACE App:? - User [userId=3, name=Jane, password=asd, balance=450.0, admin=true, approved=true, transfer=0.0]
+2022-03-03 10:44:52 TRACE App:? - option entered: 0
+2022-03-03 10:44:56 TRACE App:? - option entered: 1
+2022-03-03 10:44:58 TRACE App:? - getUser query executing...
+2022-03-03 10:44:58 TRACE App:? - query done.
+2022-03-03 10:44:59 TRACE App:? - User logged in: User [userId=10, name=mimi, password=asd, balance=0.0, admin=false, approved=true, transfer=0.0]
+2022-03-03 10:50:07 INFO  App:34 - info level - System start
+2022-03-03 10:50:10 TRACE App:? - option entered: 1
+2022-03-03 10:50:12 TRACE App:? - getUser query executing...
+2022-03-03 10:50:12 TRACE App:? - query done.
+2022-03-03 10:50:13 TRACE App:? - User logged in: User [userId=3, name=Jane, password=asd, balance=450.0, admin=true, approved=true, transfer=0.0]
+2022-03-03 10:50:16 TRACE App:? - option entered: 4
+2022-03-03 10:50:16 TRACE App:? - getAllUsers query executing...
+2022-03-03 10:50:16 TRACE App:? - query done.
+2022-03-03 10:50:16 DEBUG App:141 - getAll elements in map: 4
+2022-03-03 10:59:47 INFO  App:34 - info level - System start
+2022-03-03 10:59:49 TRACE App:? - option entered: 1
+2022-03-03 10:59:50 TRACE App:? - getUser query executing...
+2022-03-03 10:59:50 TRACE App:? - query done.
+2022-03-03 10:59:52 TRACE App:? - User logged in: User [userId=3, name=Jane, password=asd, balance=450.0, admin=true, approved=true, transfer=0.0]
+2022-03-03 10:59:54 TRACE App:? - option entered: 4
+2022-03-03 10:59:54 TRACE App:? - getAllUsers query executing...
+2022-03-03 10:59:54 TRACE App:? - query done.
+2022-03-03 10:59:54 DEBUG App:141 - getAll elements in map: 4
+2022-03-03 11:00:39 INFO  App:34 - info level - System start
+2022-03-03 11:02:12 INFO  App:34 - info level - System start
+2022-03-03 11:02:14 TRACE App:? - option entered: 1
+2022-03-03 11:02:16 TRACE App:? - getUser query executing...
+2022-03-03 11:02:16 TRACE App:? - query done.
+2022-03-03 11:02:18 TRACE App:? - password entered : \asd
+2022-03-03 11:02:18 TRACE App:? - password expected: asd
+2022-03-03 11:02:20 TRACE App:? - getUser query executing...
+2022-03-03 11:02:20 TRACE App:? - query done.
+2022-03-03 11:02:22 TRACE App:? - User logged in: User [userId=3, name=Jane, password=asd, balance=450.0, admin=true, approved=true, transfer=0.0]
+2022-03-03 11:02:24 TRACE App:? - option entered: 4
+2022-03-03 11:02:24 TRACE App:? - getAllUsers query executing...
+2022-03-03 11:02:24 TRACE App:? - query done.
+2022-03-03 11:02:24 DEBUG App:141 - getAll elements in map: 4
+2022-03-03 11:42:20 INFO  App:36 - info level - System start
+2022-03-03 11:42:22 TRACE App:? - option entered: 1
+2022-03-03 11:42:23 TRACE App:? - getUser query executing...
+2022-03-03 11:42:23 TRACE App:? - query done.
+2022-03-03 11:42:25 TRACE App:? - User logged in: User [userId=3, name=Jane, password=asd, balance=450.0, admin=true, approved=true, transfer=0.0]
+2022-03-03 11:42:32 TRACE App:? - option entered: 4
+2022-03-03 11:42:32 TRACE App:? - getAllUsers query executing...
+2022-03-03 11:42:32 TRACE App:? - query done.
+2022-03-03 11:42:32 DEBUG App:143 - getAll elements in map: 4
+2022-03-03 11:50:52 INFO  App:36 - info level - System start
+2022-03-03 11:50:54 TRACE App:? - option entered: 1
+2022-03-03 11:50:55 TRACE App:? - getUser query executing...
+2022-03-03 11:50:55 TRACE App:? - query done.
+2022-03-03 11:50:56 TRACE App:? - User logged in: User [userId=3, name=Jane, password=asd, balance=450.0, admin=true, approved=true, transfer=0.0]
+2022-03-03 11:50:59 TRACE App:? - option entered: 4
+2022-03-03 11:50:59 TRACE App:? - getAllUsers query executing...
+2022-03-03 11:50:59 TRACE App:? - query done.
+2022-03-03 11:50:59 DEBUG App:143 - getAll elements in map: 4
+2022-03-03 11:51:44 INFO  App:36 - info level - System start
+2022-03-03 11:51:47 TRACE App:? - option entered: 1
+2022-03-03 11:51:48 TRACE App:? - getUser query executing...
+2022-03-03 11:51:48 TRACE App:? - query done.
+2022-03-03 11:51:49 TRACE App:? - User logged in: User [userId=3, name=Jane, password=asd, balance=450.0, admin=true, approved=true, transfer=0.0]
+2022-03-03 11:51:56 TRACE App:? - option entered: 4
+2022-03-03 11:51:56 TRACE App:? - getAllUsers query executing...
+2022-03-03 11:51:56 TRACE App:? - query done.
+2022-03-03 11:51:56 DEBUG App:143 - getAll elements in map: 4
+2022-03-03 11:55:40 INFO  App:36 - info level - System start
+2022-03-03 11:55:42 TRACE App:? - option entered: 1
+2022-03-03 11:55:43 TRACE App:? - getUser query executing...
+2022-03-03 11:55:43 TRACE App:? - query done.
+2022-03-03 11:55:44 TRACE App:? - User logged in: User [userId=3, name=Jane, password=asd, balance=450.0, admin=true, approved=true, transfer=0.0]
+2022-03-03 11:55:47 TRACE App:? - option entered: 4
+2022-03-03 11:55:47 TRACE App:? - getAllUsers query executing...
+2022-03-03 11:55:47 TRACE App:? - query done.
+2022-03-03 11:55:47 DEBUG App:143 - getAll elements in map: 4
